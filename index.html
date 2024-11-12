@@ -27,7 +27,6 @@
             <div class="col-md-4">
                 <label for="inputState" class="form-label">Fascia d'età</label>
                 <select id="inputState" class="form-select">
-                    <option selected></option>
                     <option>Minorenne</option>
                     <option>Maggiorenne</option>
                     <option>Over 65</option>
@@ -35,12 +34,42 @@
             </div>
 
             <div class="col-12 d-flex justify-content-center gap-3">
-                <button class="btn btn-primary" type="submit">Genera</button>
-                <button class="btn btn-primary" type="submit">Annulla</button>
+                <button id="genera" class="btn btn-primary" type="submit">Genera</button>
+                <button id="annulla" class="btn btn-primary" type="submit">Annulla</button>
             </div>
-
         </form>
     </div>
+
+    <h2>IL TUO BIGLIETTO</h2>
+    <div id="biglietto" class="container">
+        <h3 class="p-10">Dettaglio Passeggeri</h3>
+        <div>
+            <div class="col">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">NOME PASSEGGERO</th>
+                            <th scope="col">Offerta</th>
+                            <th scope="col">Carrozza</th>
+                            <th scope="col">Codice CP</th>
+                            <th scope="col">Costo Biglietto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="nome-passegero"></td>
+                            <td id="offerta"></td>
+                            <td id="carrozza"></td>
+                            <td id="codice-cp"></td>
+                            <td id="costo-biglietto"></td>
+                        </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
 
     <script src="script/script.js"></script>
 </body>
