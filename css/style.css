@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #B8134F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
