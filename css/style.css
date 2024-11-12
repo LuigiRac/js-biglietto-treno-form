@@ -16,3 +16,11 @@ h2 {
     justify-content: center;
     padding: 15px;
 }
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
