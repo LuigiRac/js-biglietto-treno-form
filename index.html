@@ -25,13 +25,20 @@
             </div>
 
             <div class="col-md-4">
-                <label for="validationCustom01" class="form-label">Fascia d'età</label>
-                <input type="text" class="form-control" id="validationCustom01" value="" required>
+                <label for="inputState" class="form-label">Fascia d'età</label>
+                <select id="inputState" class="form-select">
+                    <option selected></option>
+                    <option>Minorenne</option>
+                    <option>Maggiorenne</option>
+                    <option>Over 65</option>
+                </select>
             </div>
 
-            <div class="col-12">
-                <button class="btn btn-primary" type="submit">Submit form</button>
+            <div class="col-12 d-flex justify-content-center gap-3">
+                <button class="btn btn-primary" type="submit">Genera</button>
+                <button class="btn btn-primary" type="submit">Annulla</button>
             </div>
+
         </form>
     </div>
 
