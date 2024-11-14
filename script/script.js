@@ -46,4 +46,8 @@ genera.addEventListener("click", function () {
     ticketSection.classList.remove("d-none");
 });
 
+annulla.addEventListener("click", function () {
+    ticketSection.classList.add("d-none");
+})
+
 
