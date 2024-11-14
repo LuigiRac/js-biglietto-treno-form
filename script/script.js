@@ -35,6 +35,11 @@ genera.addEventListener("click", function () {
     } else if (userAgeValue == "over") {
         discountTicket = ticketPrice * discountSenior;
     }
+
+    const finalPrice = ticketPrice - discountTicket;
+    // console.log(finalPrice);
+    costoBiglietto.innerHTML = "€ " + finalPrice.toFixed(2);
+
 });
 
 
