@@ -10,7 +10,7 @@ const kilometers = document.getElementById("kilometers");
 const userAge = document.getElementById("userAge");
 const genera = document.getElementById("genera");
 const annulla = document.getElementById("annulla");
-
+const ticketSection = document.getElementById("biglietto");
 
 const nomePasseggero = document.getElementById("nome-passegero");
 const offerta = document.getElementById("offerta");
@@ -40,6 +40,7 @@ genera.addEventListener("click", function () {
     // console.log(finalPrice);
     costoBiglietto.innerHTML = "€ " + finalPrice.toFixed(2);
 
+    ticketSection.classList.remove("d-none");
 });
 
 
