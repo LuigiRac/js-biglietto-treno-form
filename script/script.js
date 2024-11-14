@@ -30,10 +30,13 @@ genera.addEventListener("click", function () {
     // console.log(ticketPrice);
     if (userAgeValue == "minorenne") {
         discountTicket = ticketPrice * discountJunior;
+        offerta.innerHTML = "Biglietto Minorenne";
     } else if (userAgeValue == "maggiorenne") {
         discountTicket = 0;
+        offerta.innerHTML = "Biglietto Standard";
     } else if (userAgeValue == "over") {
         discountTicket = ticketPrice * discountSenior;
+        offerta.innerHTML = "Biglietto Over 65";
     }
 
     const finalPrice = ticketPrice - discountTicket;
